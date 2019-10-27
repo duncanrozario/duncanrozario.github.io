@@ -74,8 +74,21 @@ a:hover{text-decoration: none; cursor:pointer;}
 	border-color:rgba(0,0,0,.3);
 }
 
+/* Row Margin Offsets */
+
+.voffset{
+	margin-top:30px;
+}
+
 /* Bloc text custom styling */
 
+#bloc-0 .navbar-brand{
+	font-size: 48px;
+}
+#bloc-1 p{
+	line-height: 28pt;
+	font-size: 24px;
+}
 
 /* = NavBar
 -------------------------------------------------------------- */
@@ -286,6 +299,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .container{
 	max-width:1170px;
 }
+.read-more-link{
+	border-style:solid;
+	border-width:0px 0px 0px 0px;
+}
+.read-more-link:hover{
+	color:#FF0000!important;
+	border-style:solid;
+	border-bottom-width:1px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -301,6 +323,16 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .tc-outer-space{
 	color:#47454B!important;
 	!important}
+/* Button colour styles */
+
+.btn-outer-space{
+	background-color:#47454B;
+	color:#FFF!important;
+}
+.btn-outer-space:hover{
+	background-color:#3b393e!important;
+}
+
 /* Link colour styles */
 
 .ltc-outer-space{
